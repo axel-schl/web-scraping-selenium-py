@@ -60,8 +60,8 @@ Script para realizar web-scrapping de metadata de series y películas de **https
   
  En este mismo repositorio se puede encontrar los resultados de toda la información extraída de las peliculas y series del sitio(Enero 2021) luego de ejecutar el script.
  
- *Películas: starz_peliculas.csv
- *Series: starz_series.csv
+ * Películas: starz_peliculas.csv
+ * Series: starz_series.csv
  
  También estan disponibles  algunas visualizaciones básicas con *pandas* y *seaborn* de los resultados en *Jupyter Notebook* en **visualizacion.ipynb**
 
