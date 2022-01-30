@@ -3,7 +3,7 @@
 ## Resumen
 Script para realizar web-scrapping de metadata de series y películas de **https://www.starz.com/ar/es**.
 
-![img][(https://i.imgur.com/vXIk7w9.png)
+![img](https://i.imgur.com/vXIk7w9.png)
 ## Tecnologías Utilizadas
 * [Selenium](https://www.selenium.dev/selenium/docs/api/py/index.html): The selenium package is used to automate web browser interaction from Python..
 * [Pandas](https://pandas.pydata.org/docs/): pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
