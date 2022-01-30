@@ -23,7 +23,7 @@ Script para realizar web-scrapping de metadata de series y películas de **https
 * #### Dependencias
     1. Cd el repositorio clonado:
         ```bash
-            $ cd book-ratings-api
+            $ cd web-scrapping-selenium-py
         ```
     2. Crea y activa el entorno virtual:
         ```bash
