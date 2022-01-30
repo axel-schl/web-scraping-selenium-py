@@ -34,6 +34,10 @@ Script para realizar web-scrapping de metadata de series y películas de **https
         ```bash
             $ pip install -r requirements.txt
         ```
+        
+    El ejecutable chromedriver.exe es necesario para la navegación interactiva de Selenium mediante Chrome. El .exe que se encuentra
+    en este repositorio es compatible para la versión **97.0** de Chrome para Windows.
+    De tener otros requerimientos descargar el driver correspondiente en: **https://chromedriver.chromium.org/downloads**
    
 
 * #### Ejecuta el script y a scrapear!
