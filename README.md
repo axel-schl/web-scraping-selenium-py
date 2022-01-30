@@ -23,7 +23,7 @@ Script para realizar web-scraping de metadata de series y películas de **https:
 * #### Dependencias
     1. Cd el repositorio clonado:
         ```bash
-            $ cd web-scrapping-selenium-py
+            $ cd web-scraping-selenium-py
         ```
     2. Crea y activa el entorno virtual:
         ```bash
@@ -42,7 +42,7 @@ Script para realizar web-scraping de metadata de series y películas de **https:
 
 * #### Ejecuta el script y a scrapear!
 
-    Ejecuta el scrapper:
+    Ejecuta el scraper:
     ```bash
         $ python scrap.py 
     ```
