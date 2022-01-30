@@ -1,7 +1,7 @@
-# web-scrapping-selenium-py
+# web-scraping-selenium-py
 
 ## Resumen
-Script para realizar web-scrapping de metadata de series y películas de **https://www.starz.com/ar/es**.
+Script para realizar web-scraping de metadata de series y películas de **https://www.starz.com/ar/es**.
 
 ![img](https://i.imgur.com/vXIk7w9.png)
 ## Tecnologías Utilizadas
@@ -46,10 +46,10 @@ Script para realizar web-scrapping de metadata de series y películas de **https
     ```bash
         $ python scrap.py 
     ```
-    Por defecto el scrapper extraerá metadata de las urls: **https://www.starz.com/ar/es/view-all/blocks/1523534** para películas
+    Por defecto el scraper extraerá metadata de las urls: **https://www.starz.com/ar/es/view-all/blocks/1523534** para películas
     y **https://www.starz.com/ar/es/view-all/blocks/1523514** para series.
     
-    Se puede enviar las urls a scrappear como argumentos al main de scrap.py en caso de que las rutas se hayan modificado o se busque extraer la información de otra sección. 
+    Se puede enviar las urls a scrapear como argumentos al main de scrap.py en caso de que las rutas se hayan modificado o se busque extraer la información de otra sección. 
     El script tomará el primer arg como la url de las películas y el segundo como la url de las series. Por ejemplo :
     ```bash
         $ python scrap.py https://www.starz.com/ar/es/view-all/blocks/1523536 https://www.starz.com/ar/es/view-all/blocks/1523517
