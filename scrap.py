@@ -43,7 +43,9 @@ def main():
     metadata_s = seriescrap(driver,url)
 
     path_series = './starz_series.csv'
-
+    
+    driver.close()
+      
     try:
         df_series = pd.DataFrame(metadata_s) #Dataframe con la metadata para crear el .csv final
         df_series.to_csv(path_series, columns=["Titulo", "Sinopsis", "Año", "Episodios", "Calificacion", "Genero", "Temporadas", "info_episodios"],encoding='utf8', index= False) 
